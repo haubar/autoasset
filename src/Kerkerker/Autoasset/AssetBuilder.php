@@ -31,16 +31,6 @@ class AssetBuilder extends HtmlBuilder {
 			return parent::style(($enable ? $this->filename : null) . $url, $attributes, $secure);
 		}
 
-		public function image($url, $alt = null, $attributes = array(), $secure = null, $enable = true)
-		{
-			return parent::image(($enable ? $this->filename : null) . $url, $alt, $attributes, $secure);
-		}
-
-		public function linkAsset($url, $title = null, $attributes = array(), $secure = null, $enable = true)
-		{
-			return parent::linkAsset(($enable ? $this->filename : null) . $url, $title, $attributes, $secure);
-		}
-
 		public function getAssetfilename()
 		{
 			return $this->filename;
@@ -49,5 +39,10 @@ class AssetBuilder extends HtmlBuilder {
 		public function setAssetfilename($filename)
 		{
 			$this->filename = $filename;
+		}
+
+		public function linkAsset($url, $title = null, $attributes = array(), $secure = null, $enable = true)
+		{
+			return parent::linkAsset(($enable ? $this->filename : null) . $url, $title, $attributes, $secure);
 		}
 }
