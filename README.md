@@ -20,9 +20,11 @@
   
   ` 'Asset'  => 'Kerkerker\Autoasset\Asset' `
   
-  在要使用的blade樣版中使加入 
+  在要使用的blade樣版中使加入
+  
    ｀{{ Asset::style('') }}｀
    ｀{{ Asset::script('') }}｀
+  
   會自動加入網址對應檔案的CSS 及 javascript 
   
   example:
