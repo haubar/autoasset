@@ -1,4 +1,4 @@
-<?php namespace Kerkerker\AutoAsset;
+<?php namespace Kerkerker\Autoasset;
 
 use Illuminate\Support\Facades\Facade;
 
