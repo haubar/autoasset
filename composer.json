@@ -2,6 +2,7 @@
     "name": "kerkerker/autoasset",
     "description": "automatic asset for Laravel",
     "keywords": ["asset", "laravel", "auto"],
+    "license": "MIT",
     "authors": [
         {
             "name": "haubar",
@@ -20,5 +21,5 @@
             "Kerkerker\\Autoasset\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
