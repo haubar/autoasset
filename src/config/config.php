@@ -2,7 +2,7 @@
 
 return array(
 
-  'filename' => Route::current()->getPath(),
-  'path' => '',
+  'filename' => 22,
+  'path' => '123',
 
 );
