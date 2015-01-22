@@ -17,7 +17,9 @@ class AssetServiceProvider extends ServiceProvider
     $this->app->bindShared('autoasset', function($app)
     {
       return new AssetBuilder(
-          $app['url'], $this->app['config']->get('autoasset::config.filename'));
+          $app['url'],
+          $this->app['config']->get('autoasset::config.filename'),
+          $this->app['config']->get('autoasset::config.path'));
     });
   }
 

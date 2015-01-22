@@ -2,7 +2,7 @@
 
 return array(
 
-  'filename' => 22,
-  'path' => '123',
+  'filename' => Route::current()->getPath(),
+  'path' => 'asset/',
 
 );
