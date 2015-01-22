@@ -4,7 +4,6 @@
 use Illuminate\Html\HtmlBuilder;
 use Illuminate\Routing\UrlGenerator;
 
-
 class AssetBuilder extends HtmlBuilder {
 
 		protected $filename;
